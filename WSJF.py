@@ -1,12 +1,12 @@
 
 def WSJF_S(a, b, c, d):
-    bv = int(a)                                                     ## bv = Business Value of the User Story
+    bv = int(a)                                                  ## bv = Business Value of the User Story
     tc = int(b)                                                  ## tc = Time Criticality
-    rr = int(c)                                                    ## rr/oe = Risk Reduction/ Oportunity enablement
-    js = int(d)                                                   ## js = Job Size                                                               
-    cod = (bv + tc + rr)                                                   ## cod = Cost of Delay
+    rr = int(c)                                                  ## rr/oe = Risk Reduction/ Oportunity enablement
+    js = int(d)                                                  ## js = Job Size                                                               
+    cod = (bv + tc + rr)                                         ## cod = Cost of Delay
     print(cod)
-    print ("This is your Cost of Dealay")
+    print ("This is your Cost of Delay")
     y = (cod//int(js) )
     print(y)
     return "This is WSJF for our current user story! "
